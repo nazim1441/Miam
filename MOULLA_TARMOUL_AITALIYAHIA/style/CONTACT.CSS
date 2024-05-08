@@ -1,0 +1,255 @@
+@font-face {
+    font-family: text;
+    src: url(/FONTS/NAVFONT.otf);
+}
+
+@font-face {
+    font-family: logo;
+    src: url(/FONTS/LOGOFONT.ttf);
+}
+
+@font-face {
+    font-family:body;
+    src: url(/FONTS/BODYFONT.otf);
+}
+
+body{
+    background-image: linear-gradient( -135deg,rgb(197, 156, 101),rgb(196, 178, 144));
+    background-size:  100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+header{
+    position: fixed;
+    background-image: url(https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    width: 102%;
+    height: 15%;
+    margin-left: -1%;
+    box-shadow: 0 0 10px black;
+    margin-top: -0.74%;
+}
+
+img.logo{
+    width: 140px;
+    margin-top: -1.4%;
+    position: fixed;
+}
+
+hr.logo{
+    width: 1px;
+    height: 9.9%;
+    margin-left: 9.5%;
+    margin-top: 1.2%;
+    background-color: white;
+    position: fixed;
+}
+
+.slogo{
+    position: fixed;
+    color: white;
+    margin-left: 11%;
+    position: absolute;
+    font-family: logo;
+    font-size: 270%;
+    margin-top: 1.2%;
+}
+
+
+.attun{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    margin-left: 50.1%;
+    margin-top: 2.9%;
+    font-size: 90%;
+    font-family: text;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    background-color: rgb(168, 122, 60);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 8%;
+    border-radius: 20px;
+}
+
+.attun:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(255, 203, 126, 0.637);
+   
+}
+
+.attdeux{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    margin-left: 61%;
+    margin-top: 2.9%;
+    font-size: 90%;
+    font-family: text;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    background-color: rgb(168, 122, 60);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 8%;
+    border-radius: 20px;
+}
+
+.attdeux:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(255, 203, 126, 0.644);
+    
+}
+
+.atttrois{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    margin-left: 72%;
+    margin-top: 2.9%;
+    font-size: 90%;
+    font-family: text;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    background-color: rgb(168, 122, 60);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 8%;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+form{
+    margin-top: 5%;
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+    height: 30%;
+    width: 78%;
+    margin-left: 12%;
+    background-image: linear-gradient(135deg,rgb(185, 155, 91),rgb(128, 97, 49));
+
+}
+
+.inputun{
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 40%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.685);
+}
+
+.labelun{
+    margin-left: 25%;
+    color: white;
+    font-family: body;
+    text-shadow: 0 0 5px black;
+}
+
+.inputdeux{
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 70%;
+    height: 30%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.685);
+}
+
+.adresse{
+    font-family: body;
+    margin-left: 35%;
+    background-color: white;
+    padding: 1%;
+    border-radius: 50px;
+    text-shadow: 0 0 2px rgb(48, 48, 48);
+}
+
+img.icon{
+    width: 2.5%;
+    margin-left: -1%;
+    margin-top: -1.1%;
+    transform: rotate(-15deg);
+    overflow: scroll;
+}
+
+button{
+    margin-top: -0.2%;
+    margin-left: 45%;
+    border-radius: 10px;
+    border: none;
+    font-family: text;
+    font-size: 80%;
+    background-color: rgb(90, 63, 23);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+button:hover{
+    box-shadow: 0 0 15px rgba(231, 176, 103, 0.527);
+    background-color: rgb(201, 136, 51);
+}
+
+.deux{
+    background-color: rgb(199, 140, 91);
+    height: 0.2%;
+    border: none;
+}
+
+iframe{
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 40%;
+    width: 96.5%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.658);
+}
+
+.vibe{
+    font-family: text;
+    color: rgb(41, 24, 14);
+    font-size: 120%;
+    margin-left: 3%;
+    margin-top: -6%;
+}
+
+.fleche{
+    width: 4%;
+    transform: rotate(120deg);
+    margin-left: 26%;
+    margin-top: 1%;
+}
+
+img.instagram{
+    width: 2%;
+}
+
+.facebook{
+   width: 1.7%;
+   margin-left: 1%;
+   margin-bottom: 0.199%;
+}
+
+.x{
+    width: 2%;
+    margin-left: 1%;
+}
+
+.Droits{
+    margin-left: 42%;
+    font-family: body;
+}
+
+
+.droits2{
+    margin-left: 28%;
+    font-family: body;
+}

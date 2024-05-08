@@ -1,0 +1,622 @@
+@font-face {
+    font-family: text;
+    src: url(/FONTS/NAVFONT.otf);
+}
+
+@font-face {
+    font-family: logo;
+    src: url(/FONTS/LOGOFONT.ttf);
+}
+
+@font-face {
+    font-family:body;
+    src: url(/FONTS/BODYFONT.otf);
+}
+
+@font-face {
+    font-family: comm;
+    src: url(/FONTS/COMMFONT.otf);
+}
+
+body{
+    background-image: linear-gradient( -135deg,rgb(197, 156, 101),rgb(196, 178, 144));
+    background-size:  10000px 10000px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+header{
+    position: fixed;
+    background-image: url(https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    width: 102%;
+    height: 15%;
+    margin-left: -1%;
+    box-shadow: 0 0 10px black;
+    margin-top: -0.78%;
+}
+
+img{
+    width: 140px;
+    margin-top: -1.4%;
+    position: fixed;
+}
+
+hr.logo{
+    width: 1px;
+    height: 10%;
+    margin-left: 9.5%;
+    margin-top: 1.2%;
+    background-color: white;
+    position: fixed;
+}
+
+.slogo{
+    position: fixed;
+    color: white;
+    margin-left: 11%;
+    position: absolute;
+    font-family: logo;
+    font-size: 270%;
+    margin-top: 1.3%;
+}
+
+
+.attun{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    margin-left: 50.1%;
+    margin-top: 2.9%;
+    font-size: 90%;
+    font-family: text;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    background-color: rgb(168, 122, 60);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 8%;
+    border-radius: 20px;
+}
+
+.attun:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(255, 203, 126, 0.644);
+   
+}
+
+.attdeux{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    margin-left: 61%;
+    margin-top: 2.9%;
+    font-size: 90%;
+    font-family: text;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    background-color: rgb(168, 122, 60);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 8%;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+
+.atttrois{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    margin-left: 72%;
+    margin-top: 2.9%;
+    font-size: 90%;
+    font-family: text;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    background-color: rgb(168, 122, 60);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 8%;
+    border-radius: 20px;
+}
+
+.atttrois:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(255, 203, 126, 0.644);
+}
+
+/*entrées*/
+
+.entrées{ 
+    background-image: linear-gradient( rgb(194, 194, 194),rgb(182, 182, 182));
+    width: 70%;
+    height: 60%;
+    margin-left: 16%;
+    margin-top: -9%;
+    box-shadow: 0 0 10px black;
+
+}
+
+.salade{
+    background-color: rgb(255, 248, 219);
+    width:15%;
+    height: 100%;
+    margin-top: 15%;
+    margin-left: 12.5%;
+}
+
+b{
+    margin-left: 23%;
+    font-family: text;
+}
+
+.illus1{
+    height: 50%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 5.2%;
+    background-image: url(https://images.pexels.com/photos/764925/pexels-photo-764925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+button{
+    margin-left: 13%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(189, 145, 51);
+    color: white;
+    font-family: text;
+    margin-top: -18%;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0 0 20px rgb(95, 95, 95);
+    background-color: rgb(226, 226, 226);
+    color: rgb(189, 145, 51);
+}
+
+.saladeor{
+    background-color: rgb(255, 248, 219);
+    width:15%;
+    height: 100%;
+    margin-top: -41.2%;
+    margin-left: 30%;
+}
+
+.illus2{
+    height: 50%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 3%;
+    background-image: url(https://images.pexels.com/photos/12364377/pexels-photo-12364377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.or{
+    margin-left: 18%;
+}
+
+.ingredi1{
+      font-size: 90%;
+      margin-left: 2%;
+      margin-top: 5%;
+      font-family: comm;
+
+}
+
+.ingredi2{
+    font-size: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: comm;
+
+}
+
+.soupe{
+    background-color: rgb(255, 248, 219);
+    width:15%;
+    height: 100%;
+    margin-top: -41.2%;
+    margin-left: 47%;
+}
+
+.or2{
+    margin-left: 18%;
+}
+
+.ingredi3{
+    font-size: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: comm;
+
+}
+
+.illus3{
+    height: 50%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 3%;
+    background-image: url(https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.chorba{
+    background-color: rgb(255, 248, 219);
+    width:15%;
+    height: 100%;
+    margin-top: -41.2%;
+    margin-left: 64.2%;
+}
+
+.ingredi4{
+    font-size: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: comm;
+
+}
+
+.illus4{
+    height: 50%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 5.2%;
+    background-image: url(https://images.pexels.com/photos/724667/pexels-photo-724667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.bourak{
+    background-color: rgb(255, 248, 219);
+    width:15%;
+    height: 100%;
+    margin-top: -41.2%;
+    margin-left: 81.5%;
+}
+
+.ingredi5{
+    font-size: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: comm;
+
+}
+
+.illus5{
+    height: 50%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 5.2%;
+    background-image: url(https://img-3.journaldesfemmes.fr/VBeqsGZPYcwnlvPJkFck8yF1Dgo=/750x/smart/f372439b07614d7e8136cfda351f5544/recipe-jdf/372518.jpg);
+}
+
+.title{
+    
+    font-family: logo;
+    font-size: 280%;
+    margin-left: 45%;
+    color: rgb(0, 0, 0);
+}
+/*pprincipaux*/
+
+.pprinc{ 
+    background-image: linear-gradient( rgb(194, 194, 194),rgb(182, 182, 182));
+    width: 70%;
+    height: 60%;
+    margin-left: 16%;
+    margin-top: -9%;
+    box-shadow: 0 0 10px black;
+
+}
+
+.gratin{
+    background-color: rgb(255, 248, 219);
+    width:15%;
+    height: 100%;
+    margin-top: 15%;
+    margin-left: 12.5%;
+}
+
+.ingredi6{
+    font-size: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: comm;
+
+}
+
+.illus6{
+    height: 50%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 5.2%;
+    background-image: url(https://media.istockphoto.com/id/952767700/fr/photo/homemadede-cuisson-de-p%C3%A2tes-au-jambon.jpg?b=1&s=612x612&w=0&k=20&c=5bRcUm0_j0xk-NCWZP11yfGquaz9Z6B6Gcybg5oorDA=);
+}
+
+.pdt{
+    background-color: rgb(255, 248, 219);
+    width:15%;
+    height: 100%;
+    margin-top: -41.2%;
+    margin-left: 30%;
+}
+
+.ingredi7{
+    font-size: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: comm;
+
+}
+
+.illus7{
+    height: 50%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 3%;
+    background-image: url(https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+.or3{
+    margin-left: 18%;
+}
+
+.crevette{
+    background-color: rgb(255, 248, 219);
+    width:15%;
+    height: 100%;
+    margin-top: -41.2%;
+    margin-left: 47%;
+}
+
+.ingredi8{
+    font-size: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: comm;
+
+}
+
+.illus8{
+    height: 50%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 5.2%;
+    background-image: url(https://images.pexels.com/photos/699544/pexels-photo-699544.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+.mlng{
+    background-color: rgb(255, 248, 219);
+    width:15%;
+    height: 100%;
+    margin-top: -41.2%;
+    margin-left: 64.4%;
+}
+
+.ingredi9{
+    font-size: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: comm;
+
+}
+
+.illus9{
+    height: 50%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 5.2%;
+    background-image: url(https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+.plats{
+    background-color: rgb(255, 248, 219);
+    width:15%;
+    height: 100%;
+    margin-top: -41.2%;
+    margin-left: 81.5%;
+}
+
+.ingredi10{
+    font-size: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: comm;
+
+}
+
+.illus10{
+    height: 50%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 5.2%;
+    background-image: url(https://images.pexels.com/photos/2689419/pexels-photo-2689419.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+.title2{
+    
+    font-family: logo;
+    font-size: 280%;
+    margin-left: 41%;
+}
+
+/*street food*/
+
+.title3{
+    
+    font-family: logo;
+    font-size: 280%;
+    margin-left: 43%;
+}
+
+.sf{ 
+    background-image: linear-gradient( rgb(194, 194, 194),rgb(182, 182, 182));
+    width: 70%;
+    height: 60%;
+    margin-left: 16%;
+    margin-top: -9%;
+    box-shadow: 0 0 10px black;
+
+}
+
+.burger{
+    background-color: rgb(255, 248, 219);
+    width:15%;
+    height: 100%;
+    margin-top: 15%;
+    margin-left: 12.5%;
+}
+
+.ingredi11{
+    font-size: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: comm;
+
+}
+
+.illus11{
+    height: 50%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 5.2%;
+    background-image: url(https://images.pexels.com/photos/2702674/pexels-photo-2702674.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+.tacos{
+    background-color: rgb(255, 248, 219);
+    width:15%;
+    height: 100%;
+    margin-top: -41.2%;
+    margin-left: 30%;
+}
+
+.ingredi12{
+    font-size: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: comm;
+
+}
+.illus12{
+    height: 50%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 5.2%;
+    background-image: url(https://th.bing.com/th/id/OIP.mNEEsZ2E1aflCMpbKfwLCwHaE8?rs=1&pid=ImgDetMain);
+}
+
+.pizza{
+    background-color: rgb(255, 248, 219);
+    width:15%;
+    height: 100%;
+    margin-top: -41.2%;
+    margin-left: 47.3%;
+}
+
+.ingredi13{
+    font-size: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: comm;
+
+}
+.illus13{
+    height: 50%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 5.2%;
+    background-image: url(https://images.pexels.com/photos/13814644/pexels-photo-13814644.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+
+.sandwitch{
+    background-color: rgb(255, 248, 219);
+    width:15%;
+    height: 100%;
+    margin-top: -41.2%;
+    margin-left: 64.5%;
+}
+
+.ingredi14{
+    font-size: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: comm;
+
+}
+.illus14{
+    height: 50%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 5.2%;
+    background-image: url(https://images.pexels.com/photos/1600732/pexels-photo-1600732.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+}
+
+.chapati{
+    background-color: rgb(255, 248, 219);
+    width:15%;
+    height: 100%;
+    margin-top: -41.2%;
+    margin-left: 81.8%;
+}
+
+.ingredi15{
+    font-size: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: comm;
+
+}
+.illus15{
+    height: 50%;
+    background-size: cover;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 5.2%;
+    background-image: url(https://th.bing.com/th/id/OIP.KdpXKQgFcSJ482BMBp8bJQHaHa?w=169&h=180&c=7&r=0&o=5&pid=1.7);
+}
+
+.plus{
+    margin-top: -30%;
+}
+
+.prix{
+    margin-left: 31%;
+    font-family: text;
+    color: rgb(102, 46, 24);
+}
+
+.hrcontent{
+    background-color: white;
+    height: 1%;
+    border: none;
+}
+
+.Droits{
+    margin-left: 42%;
+    font-family: body;
+}
+
+
+.droits2{
+    margin-left: 28%;
+    font-family: body;
+}

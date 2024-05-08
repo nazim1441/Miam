@@ -1,0 +1,292 @@
+
+@font-face {
+    font-family: text;
+    src: url(/FONTS/NAVFONT.otf);
+}
+
+@font-face {
+    font-family: logo;
+    src: url(/FONTS/LOGOFONT.ttf);
+}
+
+@font-face {
+    font-family:body;
+    src: url(/FONTS/BODYFONT.otf);
+}
+
+@font-face {
+    font-family: comm;
+    src: url(/FONTS/COMMFONT.otf);
+}
+
+
+
+
+body{
+    background-image: linear-gradient( -135deg,rgb(172, 136, 88),rgb(196, 178, 144));
+    background-size:  100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+header{
+    position: fixed;
+    background-image: url(https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    width: 102%;
+    height: 15%;
+    margin-left: -1%;
+    box-shadow: 0 0 10px black;
+    margin-top: -7.1%;
+    position: top;
+}
+
+img{
+    width: 140px;
+    margin-top: -1.4%;
+    position: fixed;
+}
+
+hr{
+    width: 1px;
+    height: 10%;
+    margin-left: 9.5%;
+    margin-top: 1.2%;
+    background-color: white;
+    position: fixed;
+}
+
+.slogo{
+    position: fixed;
+    color: white;
+    margin-left: 11%;
+    position: absolute;
+    font-family: logo;
+    font-size: 270%;
+    margin-top: 1.3%;
+}
+
+
+.attun{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    margin-left: 50.1%;
+    margin-top: 2.9%;
+    font-size: 90%;
+    font-family: text;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    background-color: rgb(168, 122, 60);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 8%;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+.attdeux{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    margin-left: 61%;
+    margin-top: 2.9%;
+    font-size: 90%;
+    font-family: text;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    background-color: rgb(168, 122, 60);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 8%;
+    border-radius: 20px;
+}
+
+.attdeux:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(255, 203, 126, 0.644);
+    
+}
+
+.atttrois{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    margin-left: 72%;
+    margin-top: 2.9%;
+    font-size: 90%;
+    font-family: text;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    background-color: rgb(168, 122, 60);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 8%;
+    border-radius: 20px;
+}
+
+.atttrois:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(255, 203, 126, 0.644);
+}
+
+.box1{
+    background-color: rgb(201, 180, 150);
+    width: 30%;
+    height: 40%;
+    margin-top: -0.5%;
+    margin-left: 2%;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    font-family: body;
+    font-size: large;
+}
+
+.box2{
+    background-color: rgb(201, 180, 150);
+    width: 30%;
+    height: 40%;
+    margin-top: 3%;
+    margin-left: 64.6%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    font-family: body;
+    font-size: large;
+}
+
+.box3{
+    background-color: rgb(201, 180, 150);
+    width: 30%;
+    height: 40%;
+    margin-top: 3%;
+    margin-left: 2%;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    font-family: body;
+    font-size: large;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+b{
+    font-family: text;
+}
+
+.p1{
+    background-image: url(https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 60%;
+    height: 40%;
+    float: right;
+    margin-top: -19.2%;
+    background-position: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 10px black;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    background-size: cover;
+    margin-right: 5.5%;
+}
+
+.p2{
+    background-image: url(https://images.pexels.com/photos/693269/pexels-photo-693269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 60%;
+    height: 40%;
+    float: left;
+    margin-top: -19.2%;
+    background-position: center;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    box-shadow: 0 0 10px black;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    background-size: cover;
+    margin-left: 2%;
+}
+
+.p3{
+    background-image: url(https://images.pexels.com/photos/958547/pexels-photo-958547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 60%;
+    height: 40%;
+    float: right;
+    margin-top: -19.2%;
+    background-position: center;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    background-size: cover;
+    margin-right: 5.5%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.barre{  
+  
+    background-image: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/106397/1360/906/m1/fpnw/wm1/kbbn6c8xv6vshiuzkff7gz4t38b9lm42hbbbz66awuav5lonsvlciqfgixucmzbw-.jpg?1399222055&s=a3cd187dbcc7bba695fc26872dcb346d);
+    /*background-image: linear-gradient(rgb(255, 221, 183),rgb(248, 200, 145));*/
+  width: 102.6%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  margin-top: 7%;
+  margin-left: -2%;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.26);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: text;
+  color: rgb(255, 255, 255);
+  font-size: 400%;
+  text-shadow:  0 0 60px rgb(0, 0, 0) , 0 0 80px black;
+  border-bottom: 80px solid rgb(134, 106, 63);
+  box-shadow: 0 0 10px black;
+  background-position: 10%;
+}
+
+.sbarre{
+    font-size: 150%;
+    margin-top: -5%;
+    color: rgb(17, 17, 17);
+    font-family: logo;
+    text-shadow: none;
+    margin-left: 40%;
+}
+
+.ssbarre{
+    font-size: 18%;
+    text-shadow: none;
+    color: rgb(39, 39, 39);
+    font-family: comm;
+    margin-left: 48.5%;
+
+}
+
+.Droits{
+    margin-left: 42%;
+    font-family: body;
+}
+
+.blanc{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(255, 228, 179),rgba(185, 149, 102, 0.747));
+}
+
+.droits2{
+    margin-left: 28%;
+    font-family: body;
+}
+
